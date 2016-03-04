@@ -28,11 +28,19 @@
 //#include "config.h"
 
 #include <string>
+#include "Plugin.h"
 #include "logging/WriterBackend.h"
 #include "threading/formatters/JSON.h"
 #include "message_bus.h"
 
 using namespace std;
+
+// OMG THIS IS BAD.. BUT DAMN SON..
+namespace plugin {
+        namespace PS_amqp {
+                class message_bus_publisher;
+        }
+}
 
 namespace logging {
 	namespace writer {
