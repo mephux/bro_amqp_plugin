@@ -27,7 +27,7 @@
 #include "amqp.h"
 #include "message_bus.h"
 
-using namespace plugin::PS_amqp;
+// using namespace plugin::PS_amqp;
 using namespace logging;
 
 namespace plugin {
