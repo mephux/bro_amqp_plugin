@@ -29,6 +29,9 @@ namespace plugin {
 	}
 }
 
+
+using namespace plugin::PS_amqp;
+
 Plugin::Plugin() {
 }
 
